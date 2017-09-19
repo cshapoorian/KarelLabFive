@@ -11,7 +11,7 @@ public class DefendDemocracyDriver implements Directions
 {
     public static void main(String args[])  {
         DemocracyBot karel = new DemocracyBot(3, 1, East, 0);  
-        karel.fixBallots();
+        karel.democracy();
         karel.turnOff();  
     } 
 
